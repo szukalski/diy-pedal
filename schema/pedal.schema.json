@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/szukalski/diy-pedal/raw/main/schema/pedal.schema.json",
+    "title": "Pedal",
+    "description": "A guitar pedal that you can build.",
+    "type": "object",
+    "properties": {
+        "pedalName": {
+            "description": "The name of the pedal",
+            "type": "string"
+        },
+        "construction": {
+            "description": "The construction method to build the pedal",
+            "type": "string",
+            "enum": [ "pcb", "perfboard", "vero" ]
+        },
+        "tags": {
+            "description": "Tags for the pedal",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+    },
+    "required": [ "pedalName", "construction" ]
+  }
