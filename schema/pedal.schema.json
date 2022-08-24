@@ -9,16 +9,34 @@
             "description": "The name of the pedal",
             "type": "string"
         },
+        "pedalDesigner": {
+            "description": "Who designed the pedal",
+            "type": "string"
+        },
+        "pedalType": {
+            "description": "The type of pedal",
+            "type": "array",
+            "items": {
+                "enum": [ "boost", "chorus", "compression", "delay", "distortion", "dynamics", "eq", "filter", "flange", "fuzz", "modulation", "overdrive", "phase", "pitch", "preamp", "reverb", "tremolo", "utility", "wah" ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
         "relatedTo": {
             "description": "What other pedals the pedal is related to",
             "type": "string"
         },
         "construction": {
             "description": "The construction method to build the pedal",
-            "oneOf": {
-                "enum": [ "pcb", "perfboard", "vero" ],
-                "type": "string"
-            }
+            "enum": [ "pcb", "perfboard", "vero" ]
+        },
+        "schematic": {
+            "description": "Is schematic present?",
+            "type": "boolean"
+        },
+        "buildDoc": {
+            "description": "Is build doc present?",
+            "type": "boolean"
         },
         "tags": {
             "description": "Tags for the pedal",
@@ -28,7 +46,8 @@
             },
             "minItems": 1,
             "uniqueItems": true
-          }
+        },
+        "components": {}
     },
-    "required": [ "pedalName", "construction" ]
+    "required": [ "pedalName", "pedalDesigner", "pedalType" ]
   }
