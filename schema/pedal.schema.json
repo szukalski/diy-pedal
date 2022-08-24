@@ -9,10 +9,16 @@
             "description": "The name of the pedal",
             "type": "string"
         },
+        "basedOn": {
+            "description": "What the pedal is based on",
+            "type": "string"
+        },
         "construction": {
             "description": "The construction method to build the pedal",
-            "type": "string",
-            "enum": [ "pcb", "perfboard", "vero" ]
+            "oneOf": {
+                "type": "string",
+                "enum": [ "pcb", "perfboard", "vero" ]
+            }
         },
         "tags": {
             "description": "Tags for the pedal",
