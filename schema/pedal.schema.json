@@ -47,7 +47,44 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "components": {}
+        "components": {
+            "active": {
+                "component": { "$ref": "#/$defs/component" }
+            }
+        }
     },
-    "required": [ "pedalName", "pedalDesigner", "pedalType" ]
+    "required": [ "pedalName", "pedalDesigner", "pedalType", "components" ],
+    "$defs": {
+        "component": {
+            "category": {
+                "description": "Category of the component",
+                "type": "string"
+            },
+            "sub-category": {
+                "description": "Sub-category of the component",
+                "type": "string"
+            },
+            "part": {
+                "description": "Part ID of the component on the PCB",
+                "type": "string"
+            },
+            "value": {
+                "description": "Value of the component",
+                "type": "string"
+            },
+            "package": {
+                "description": "Package of the component",
+                "type": "string"
+            },
+            "description": {
+                "description": "Description of the component",
+                "type": "string"
+            },
+            "notes": {
+                "description": "Additional notes of the component",
+                "type": "string"
+            },
+            "required": [ "category", "value" ]
+        }
+    }
   }

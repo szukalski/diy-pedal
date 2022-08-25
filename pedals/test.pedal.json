@@ -1,3 +1,6 @@
 {
-    "pedalName": "test"
+    "pedalName": "test",
+    "pedalDesigner": "test mcgee",
+    "pedalType": [ "eq", "boost" ],
+    "buildDoc": false
 }
