@@ -116,7 +116,8 @@
                     "properties": {}
                 }
             },
-            "unevaluatedProperties": false
+            "unevaluatedProperties": false,
+            "required": [ "value", "quantity" ]
         }
     },
     "required": [ "pedalName", "pedalDesigner", "pedalType" ],
@@ -166,8 +167,7 @@
                     "description": "Additional notes of the component",
                     "type": "string"
                 }
-            },
-            "required": [ "value", "quantity" ]
+            }
         }
     }
   }
