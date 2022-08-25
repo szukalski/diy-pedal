@@ -1,11 +1,14 @@
 {
     "pedalName": "test",
     "pedalDesigner": "test mcgee",
-    "pedalType": [ "eq", "s" ],
+    "pedalType": [ "eq", "boost" ],
     "buildDoc": false,
     "components": {
         "capacitors": {
             "category": "Ceramics"
+        },
+        "diodes": {
+            "category": "Zener"
         }
     }
 }
