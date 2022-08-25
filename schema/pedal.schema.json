@@ -49,10 +49,10 @@
         },
         "components": {
             "type": "object",
-            "$ref": "#/$defs/component",
             "properties": {
                 "capacitors": {
                     "type": "object",
+                    "$ref": "#/$defs/component",
                     "properties": {
                         "category": {
                             "enum": [ "Ceramic", "Electrolytic", "Film", "Tantalum" ]
@@ -61,6 +61,7 @@
                 },
                 "diodes": {
                     "type": "object",
+                    "$ref": "#/$defs/component",
                     "properties": {
                         "category": {
                             "enum": [ "Germanium", "LED", "Schottky", "Silicon", "Zener" ]
@@ -69,10 +70,12 @@
                 },
                 "integrated-circuits": {
                     "type": "object",
+                    "$ref": "#/$defs/component",
                     "properties": {}
                 },
                 "hardware": {
                     "type": "object",
+                    "$ref": "#/$defs/component",
                     "properties": {
                         "category": {
                             "enum": [ "Audio Jack", "Bezel", "DC Jack", "Enclosure", "Knob", "Wire" ]
@@ -81,10 +84,12 @@
                 },
                 "other": {
                     "type": "object",
+                    "$ref": "#/$defs/component",
                     "properties": {}
                 },
                 "potentiometers": {
                     "type": "object",
+                    "$ref": "#/$defs/component",
                     "properties": {
                         "category": {
                             "enum": [ "A-Log", "B-Linear", "C-Reverse Log", "W-Taper", "Trimpot" ]
@@ -93,10 +98,12 @@
                 },
                 "resistors": {
                     "type": "object",
+                    "$ref": "#/$defs/component",
                     "properties": {}
                 },
                 "sockets": {
                     "type": "object",
+                    "$ref": "#/$defs/component",
                     "properties": {
                         "category": {
                             "enum": [ "SIP-1", "DIP-8", "DIP-14", "DIP-16" ]
@@ -105,6 +112,7 @@
                 },
                 "switches": {
                     "type": "object",
+                    "$ref": "#/$defs/component",
                     "properties": {
                         "category": {
                             "enum": [ "Footswitch", "Rotary", "Toggle" ]
@@ -113,6 +121,7 @@
                 },
                 "transistors": {
                     "type": "object",
+                    "$ref": "#/$defs/component",
                     "properties": {}
                 }
             },
