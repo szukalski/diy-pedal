@@ -5,10 +5,14 @@
     "buildDoc": false,
     "components": {
         "capacitors": {
-            "category": "Ceramics"
+            "category": "Ceramic",
+            "value": "test",
+            "quantity": 2
         },
         "diodes": {
-            "category": "Zener"
+            "category": "Zener",
+            "value": "9V1",
+            "quantity": 1
         }
     }
 }
