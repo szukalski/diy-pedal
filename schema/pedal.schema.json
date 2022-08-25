@@ -48,43 +48,126 @@
             "uniqueItems": true
         },
         "components": {
-            "capacitors": {
-                "$ref": "#/$defs/component",
-                "category": {
-                    "enum": [ "Ceramic", "Electrolytic", "Film", "Tantalum" ]
+            "type": "object",
+            "$ref": "#/$defs/component",
+            "properties": {
+                "capacitors": {
+                    "type": "object",
+                    "properties": {
+                        "category": {
+                            "enum": [ "Ceramic", "Electrolytic", "Film", "Tantalum" ]
+                        }
+                    }
                 },
-                "unevaluatedProperties": false
-            }
-            
+                "diodes": {
+                    "type": "object",
+                    "properties": {
+                        "category": {
+                            "enum": [ "Germanium", "LED", "Schottky", "Silicon", "Zener" ]
+                        }
+                    }
+                },
+                "integrated-circuits": {
+                    "type": "object",
+                    "properties": {}
+                },
+                "hardware": {
+                    "type": "object",
+                    "properties": {
+                        "category": {
+                            "enum": [ "Audio Jack", "Bezel", "DC Jack", "Enclosure", "Knob", "Wire" ]
+                        }
+                    }
+                },
+                "other": {
+                    "type": "object",
+                    "properties": {}
+                },
+                "potentiometers": {
+                    "type": "object",
+                    "properties": {
+                        "category": {
+                            "enum": [ "A-Log", "B-Linear", "C-Reverse Log", "W-Taper", "Trimpot" ]
+                        }
+                    }
+                },
+                "resistors": {
+                    "type": "object",
+                    "properties": {}
+                },
+                "sockets": {
+                    "type": "object",
+                    "properties": {
+                        "category": {
+                            "enum": [ "SIP-1", "DIP-8", "DIP-14", "DIP-16" ]
+                        }
+                    }
+                },
+                "switches": {
+                    "type": "object",
+                    "properties": {
+                        "category": {
+                            "enum": [ "Footswitch", "Rotary", "Toggle" ]
+                        }
+                    }
+                },
+                "transistors": {
+                    "type": "object",
+                    "properties": {}
+                }
+            },
+            "unevaluatedProperties": false
         }
     },
     "required": [ "pedalName", "pedalDesigner", "pedalType" ],
     "$defs": {
         "component": {
             "type": "object",
-            "category": {
-                "description": "Category of the component"
+            "properties": {
+                "category": {
+                    "description": "Category of the component"
+                },
+                "sub-category": {
+                    "description": "Sub-category of the component"
+                },
+                "location": {
+                    "description": "Location ID(s) of the component on the PCB",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "uniqueItems": true
+                },
+                "value": {
+                    "description": "Value of the component",
+                    "type": "string"
+                },
+                "quantity": {
+                    "description": "Quantity of component",
+                    "type": "number"
+                },
+                "package": {
+                    "description": "Package of the component",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "Description of the component",
+                    "type": "string"
+                },
+                "replacement": {
+                    "description": "Potential replacement values",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "uniqueItems": true
+                },
+                "notes": {
+                    "description": "Additional notes of the component",
+                    "type": "string"
+                }
             },
-            "part": {
-                "description": "Part ID of the component on the PCB",
-                "type": "string"
-            },
-            "value": {
-                "description": "Value of the component",
-                "type": "string"
-            },
-            "package": {
-                "description": "Package of the component",
-                "type": "string"
-            },
-            "description": {
-                "description": "Description of the component",
-                "type": "string"
-            },
-            "notes": {
-                "description": "Additional notes of the component",
-                "type": "string"
-            }
+            "required": [ "value", "quantity" ]
         }
     }
   }

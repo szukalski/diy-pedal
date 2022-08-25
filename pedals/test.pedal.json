@@ -1,6 +1,11 @@
 {
     "pedalName": "test",
     "pedalDesigner": "test mcgee",
-    "pedalType": [ "eq", "boost" ],
-    "buildDoc": false
+    "pedalType": [ "eq", "s" ],
+    "buildDoc": false,
+    "components": {
+        "capacitors": {
+            "category": "Ceramics"
+        }
+    }
 }
