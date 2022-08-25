@@ -48,21 +48,22 @@
             "uniqueItems": true
         },
         "components": {
-            "active": {
-                "component": { "$ref": "#/$defs/component" }
+            "capacitors": {
+                "$ref": "#/$defs/component",
+                "category": {
+                    "enum": [ "Ceramic", "Electrolytic", "Film", "Tantalum" ]
+                },
+                "unevaluatedProperties": false
             }
+            
         }
     },
-    "required": [ "pedalName", "pedalDesigner", "pedalType", "components" ],
+    "required": [ "pedalName", "pedalDesigner", "pedalType" ],
     "$defs": {
         "component": {
+            "type": "object",
             "category": {
-                "description": "Category of the component",
-                "type": "string"
-            },
-            "sub-category": {
-                "description": "Sub-category of the component",
-                "type": "string"
+                "description": "Category of the component"
             },
             "part": {
                 "description": "Part ID of the component on the PCB",
@@ -83,8 +84,7 @@
             "notes": {
                 "description": "Additional notes of the component",
                 "type": "string"
-            },
-            "required": [ "category", "value" ]
+            }
         }
     }
   }
