@@ -1,0 +1,22 @@
+{
+    "pedalName": "",
+    "pedalDesigner": "",
+    "pedalType": [],
+    "basedOn": [""],
+    "construction": ,
+    "buildDoc": false,
+    "schematic": false,
+    "construction-source": "",
+    "components": [
+        {"category": "Capacitor","value": "","quantity": 1},
+        {"category": "Resistor","value": "","quantity": 1},
+        {"category": "IC","value": "","quantity": 1},
+        {"category": "Potentiometer","value": "A100K","quantity": 1},
+        {"category": "Hardware","sub-category": "Knob","value": "6.35mm Knob","quantity": 1},
+        {"category": "Hardware","sub-category": "Enclosure","value": "125B","quantity": 1},
+        {"category": "Hardware","sub-category": "Footswitch","value": "3PDT","quantity": 1},
+        {"category": "Hardware","sub-category": "Jack","value": "Audio Jack","quantity": 1},
+        {"category": "Hardware","sub-category": "Jack","value": "DC Jack","quantity": 1},
+        {"category": "Diode","sub-category": "LED","value": "Indicator LED","quantity": 1}
+    ]
+}
