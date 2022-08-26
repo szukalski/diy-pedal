@@ -1,12 +1,13 @@
 {
     "pedalName": "",
-    "pedalDesigner": "",
+    "compareToDesigner": "",
+    "compareToPedalName": "",
     "pedalType": [],
-    "basedOn": [""],
+    "lineage": [""],
     "construction": ,
     "buildDoc": false,
     "schematic": false,
-    "construction-source": "",
+    "pcbSource": "",
     "components": [
         {"category": "Capacitor","value": "","quantity": 1},
         {"category": "Resistor","value": "","quantity": 1},

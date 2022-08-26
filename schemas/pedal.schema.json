@@ -9,8 +9,12 @@
             "description": "The name of the pedal",
             "type": "string"
         },
-        "pedalDesigner": {
-            "description": "Who designed the pedal",
+        "compareToDesigner": {
+            "description": "Who designed the pedal this is compared to",
+            "type": "string"
+        },
+        "compareToPedalName": {
+            "description": "What pedal can this be compared to",
             "type": "string"
         },
         "pedalType": {
@@ -22,8 +26,8 @@
             "minItems": 1,
             "uniqueItems": true
         },
-        "basedOn": {
-            "description": "What other pedals the pedal is based on",
+        "lineage": {
+            "description": "What pedals did this evolve from",
             "type": "array",
             "items": {
               "type": "string"
@@ -35,8 +39,8 @@
             "description": "The construction method to build the pedal",
             "enum": [ "pcb", "perfboard", "vero" ]
         },
-        "construction-source": {
-            "description": "The source for the construction method (normally PCB)",
+        "pcbSource": {
+            "description": "The source for the PCB",
             "type": "string"
         },
         "schematic": {
@@ -159,5 +163,5 @@
             }
         }
     },
-    "required": [ "pedalName", "pedalDesigner", "pedalType" ]
+    "required": [ "pedalName", "compareToDesigner", "compareToPedalName", "pedalType" ]
   }
