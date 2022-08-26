@@ -3,16 +3,9 @@
     "pedalDesigner": "test mcgee",
     "pedalType": [ "eq", "boost" ],
     "buildDoc": false,
-    "components": {
-        "capacitors": {
-            "category": "Ceramic",
-            "value": "test",
-            "quantity": 2
-        },
-        "diodes": {
-            "category": "Zener",
-            "value": "9V1",
-            "quantity": 1
+    "components": [
+        {
+            
         }
-    }
+    ]
 }

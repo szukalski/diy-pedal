@@ -17,14 +17,19 @@
             "description": "The type of pedal",
             "type": "array",
             "items": {
-                "enum": [ "boost", "chorus", "compression", "delay", "distortion", "dynamics", "eq", "filter", "flange", "fuzz", "modulation", "overdrive", "phase", "pitch", "preamp", "reverb", "tremolo", "utility", "wah" ]
+                "enum": [ "boost", "chorus", "compression", "delay", "distortion", "dynamics", "eq", "filter", "flange", "fuzz", "modulation", "overdrive", "other", "phase", "pitch", "preamp", "reverb", "tremolo", "utility", "wah" ]
             },
             "minItems": 1,
             "uniqueItems": true
         },
-        "relatedTo": {
-            "description": "What other pedals the pedal is related to",
-            "type": "string"
+        "basedOn": {
+            "description": "What other pedals the pedal is based on",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
         },
         "construction": {
             "description": "The construction method to build the pedal",
@@ -48,135 +53,13 @@
             "uniqueItems": true
         },
         "components": {
-            "type": "object",
-            "properties": {
-                "capacitors": {
-                    "type": "object",
-                    "$ref": "#/$defs/component",
-                    "properties": {
-                        "category": {
-                            "enum": [ "Ceramic", "Electrolytic", "Film", "Tantalum" ]
-                        }
-                    }
-                },
-                "diodes": {
-                    "type": "object",
-                    "$ref": "#/$defs/component",
-                    "properties": {
-                        "category": {
-                            "enum": [ "Germanium", "LED", "Schottky", "Silicon", "Zener" ]
-                        }
-                    }
-                },
-                "integrated-circuits": {
-                    "type": "object",
-                    "$ref": "#/$defs/component",
-                    "properties": {}
-                },
-                "hardware": {
-                    "type": "object",
-                    "$ref": "#/$defs/component",
-                    "properties": {
-                        "category": {
-                            "enum": [ "Audio Jack", "Bezel", "DC Jack", "Enclosure", "Knob", "Wire" ]
-                        }
-                    }
-                },
-                "other": {
-                    "type": "object",
-                    "$ref": "#/$defs/component",
-                    "properties": {}
-                },
-                "potentiometers": {
-                    "type": "object",
-                    "$ref": "#/$defs/component",
-                    "properties": {
-                        "category": {
-                            "enum": [ "A-Log", "B-Linear", "C-Reverse Log", "W-Taper", "Trimpot" ]
-                        }
-                    }
-                },
-                "resistors": {
-                    "type": "object",
-                    "$ref": "#/$defs/component",
-                    "properties": {}
-                },
-                "sockets": {
-                    "type": "object",
-                    "$ref": "#/$defs/component",
-                    "properties": {
-                        "category": {
-                            "enum": [ "SIP-1", "DIP-8", "DIP-14", "DIP-16" ]
-                        }
-                    }
-                },
-                "switches": {
-                    "type": "object",
-                    "$ref": "#/$defs/component",
-                    "properties": {
-                        "category": {
-                            "enum": [ "Footswitch", "Rotary", "Toggle" ]
-                        }
-                    }
-                },
-                "transistors": {
-                    "type": "object",
-                    "$ref": "#/$defs/component",
-                    "properties": {}
-                }
+            "description": "Components to build the pedal",
+            "type": "array",
+            "items": {
+              "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schema/pedal-component.schema.json"
             },
-            "unevaluatedProperties": false
+            "minItems": 1
         }
     },
-    "required": [ "pedalName", "pedalDesigner", "pedalType" ],
-    "$defs": {
-        "component": {
-            "type": "object",
-            "properties": {
-                "category": {
-                    "description": "Category of the component"
-                },
-                "sub-category": {
-                    "description": "Sub-category of the component"
-                },
-                "location": {
-                    "description": "Location ID(s) of the component on the PCB",
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    },
-                    "uniqueItems": true
-                },
-                "value": {
-                    "description": "Value of the component",
-                    "type": "string"
-                },
-                "quantity": {
-                    "description": "Quantity of component",
-                    "type": "number"
-                },
-                "package": {
-                    "description": "Package of the component",
-                    "type": "string"
-                },
-                "description": {
-                    "description": "Description of the component",
-                    "type": "string"
-                },
-                "replacement": {
-                    "description": "Potential replacement values",
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    },
-                    "uniqueItems": true
-                },
-                "notes": {
-                    "description": "Additional notes of the component",
-                    "type": "string"
-                }
-            },
-            "required": [ "value", "quantity" ]
-        }
-    }
+    "required": [ "pedalName", "pedalDesigner", "pedalType" ]
   }

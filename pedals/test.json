@@ -1,0 +1,10 @@
+{
+    "$schema": "../schema/pedal-component.schema.json",
+    "components": [
+        {
+            "category": 2,
+            "value": "test",
+            "quantity": 2
+        }
+    ]
+}
