@@ -135,13 +135,16 @@
                     },
                     {
                         "if": {
-                            "properties": {
-                                "category": {
-                                    "not": {
-                                        "enum": ["Capacitor", "Diode"]
-                                    } 
-                                } 
-                            },
+                            "properties": { "category": { "const": "Hardware" } },
+                            "required": [ "category" ]
+                        },
+                        "then": {
+                            "properties": { "sub-category": { "enum": [ "Bezel", "Enclosure", "Footswitch", "Jack", "Knob", "Other", "Toggle Switch"] } }
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": { "category": { "not": { "enum": ["Capacitor", "Diode", "Hardware"] } } },
                             "required": [ "category" ]
                         },
                         "then": {
