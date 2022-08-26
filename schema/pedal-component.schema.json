@@ -1,13 +1,14 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/szukalski/diy-pedal/raw/main/schema/pedal-component.schema.json",
+    "$id": "https://github.com/szukalski/diy-pedal/raw/main/schema/pedal-components.schema.json",
     "title": "Pedal Component",
     "description": "A component for a guitar pedal.",
     "type": "object",
     "properties": {
-        "component": {
-            "type": "object",
-            "properties": {
+        "components": {
+            "description": "Components to build a guitar pedal",
+            "type": "array",
+            "items": {
                 "category": {
                     "description": "Category of the component",
                     "type": "string"
@@ -51,27 +52,6 @@
                 "notes": {
                     "description": "Additional notes of the component",
                     "type": "string"
-                }
-            },
-            "required": [ "category", "value", "quantity" ]
-        }
-    },
-    
-    "$defs": {
-        "component": {
-            "type": "object",
-            "properties": {
-                "category": {
-                    "description": "Category of the component",
-                    "type": "string"
-                },
-                "value": {
-                    "description": "Value of the component",
-                    "type": "string"
-                },
-                "quantity": {
-                    "description": "Quantity of component",
-                    "type": "number"
                 }
             },
             "required": [ "category", "value", "quantity" ]

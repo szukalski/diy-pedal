@@ -53,12 +53,7 @@
             "uniqueItems": true
         },
         "components": {
-            "description": "Components to build the pedal",
-            "type": "array",
-            "items": {
-              "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schema/pedal-component.schema.json"
-            },
-            "minItems": 1
+            "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schema/pedal-components.schema.json"
         }
     },
     "required": [ "pedalName", "pedalDesigner", "pedalType" ]
