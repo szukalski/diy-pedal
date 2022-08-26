@@ -1,5 +1,5 @@
 {
-    "$schema": "../schema/pedal.schema.json",
+    "$schema": "./pedal.schema.json",
     "pedalName": "test",
     "pedalDesigner": "test mcgee",
     "pedalType": [ "eq", "boost" ],
@@ -14,7 +14,7 @@
         },
         {
             "category": "Hardware",
-            "sub-category": "ds",
+            "sub-category": "Other",
             "value": "t",
             "quantity": 1
         },

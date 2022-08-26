@@ -35,6 +35,10 @@
             "description": "The construction method to build the pedal",
             "enum": [ "pcb", "perfboard", "vero" ]
         },
+        "construction-source": {
+            "description": "The source for the construction method (normally PCB)",
+            "type": "string"
+        },
         "schematic": {
             "description": "Is schematic present?",
             "type": "boolean"
