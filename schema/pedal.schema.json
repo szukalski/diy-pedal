@@ -53,7 +53,103 @@
             "uniqueItems": true
         },
         "components": {
-            "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schema/pedal-components.schema.json"
+            "description": "Components to build a guitar pedal",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "category": {
+                        "description": "Category of the component",
+                        "enum": [
+                            "Capacitor",
+                            "Diode",
+                            "Hardware",
+                            "IC",
+                            "Potentiometer",
+                            "Resistor",
+                            "Socket",
+                            "Transistor",
+                            "Other"
+                        ]
+                    },
+                    "sub-category": {
+                        "description": "Sub-category of the component",
+                        "type": "string"
+                    },
+                    "value": {
+                        "description": "Value of the component",
+                        "type": "string"
+                    },
+                    "quantity": {
+                        "description": "Quantity of component",
+                        "type": "number"
+                    },
+                    "location": {
+                        "description": "Location ID(s) of the component on the PCB",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "uniqueItems": true
+                    },
+                    "package": {
+                        "description": "Package of the component",
+                        "type": "string"
+                    },
+                    "component-description": {
+                        "description": "Description of the component",
+                        "type": "string"
+                    },
+                    "replacement-value": {
+                        "description": "Potential replacement values",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "uniqueItems": true
+                    },
+                    "notes": {
+                        "description": "Additional notes of the component",
+                        "type": "string"
+                    }
+                },
+                "required": [ "category", "value", "quantity" ],
+                "allOf": [
+                    {
+                        "if": {
+                            "properties": { "category": { "const": "Capacitor" } },
+                            "required": [ "category" ]
+                        },
+                        "then": {
+                            "properties": { "sub-category": { "enum": [ "Ceramic", "Film", "Electrolytic", "Tantalum" ] } }
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": { "category": { "const": "Diode" } },
+                            "required": [ "category" ]
+                        },
+                        "then": {
+                            "properties": { "sub-category": { "enum": [ "Germanium", "LED", "Schottky", "Silicon", "Zener" ] } }
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "category": {
+                                    "not": {
+                                        "enum": ["Capacitor", "Diode"]
+                                    } 
+                                } 
+                            },
+                            "required": [ "category" ]
+                        },
+                        "then": {
+                            "properties": { "sub-category": { "type": "string" } }
+                        }
+                    }
+                ]
+            }
         }
     },
     "required": [ "pedalName", "pedalDesigner", "pedalType" ]

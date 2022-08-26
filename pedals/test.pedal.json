@@ -1,4 +1,5 @@
 {
+    "$schema": "../schema/pedal.schema.json",
     "pedalName": "test",
     "pedalDesigner": "test mcgee",
     "pedalType": [ "eq", "boost" ],
@@ -6,11 +7,23 @@
     "basedOn": [ "YATS" ],
     "components": [
         {
-            "component": {
-                "category": "Capacitors",
-                "value": "100nF",
-                "quantity": 2
-            }
+            "category": "Capacitor",
+            "sub-category": "Tantalum",
+            "quantity": 2,
+            "value": "test"
+        },
+        {
+            "category": "Hardware",
+            "sub-category": "ds",
+            "value": "t",
+            "quantity": 1
+        },
+        {
+            "category": "Diode",
+            "sub-category": "Schottky",
+            "value": "es",
+            "quantity": 22
         }
-    ]
+    ],
+    "construction": "perfboard"
 }
