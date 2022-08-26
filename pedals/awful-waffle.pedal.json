@@ -1,12 +1,12 @@
 {
     "pedalName": "Awful Waffle",
-    "pedalDesigner": "Crowther",
+    "compareToDesigner": "Crowther",
     "pedalType": ["overdrive"],
-    "basedOn": ["Hot Cake"],
+    "compareToPedalName": ["Hot Cake"],
     "construction": "pcb",
     "buildDoc": true,
     "schematic": true,
-    "construction-source": "PedalPCB",
+    "pcbSource": "PedalPCB",
     "components": [
         {"category": "Capacitor","value": "10u","quantity": 2},
         {"category": "Capacitor","value": "10n","quantity": 1},
