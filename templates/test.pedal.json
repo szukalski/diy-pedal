@@ -1,10 +1,10 @@
 {
-    "$schema": "./pedal.schema.json",
-    "pedalName": "test",
-    "pedalDesigner": "test mcgee",
-    "pedalType": [ "eq", "boost" ],
+    "$schema": "../schemas/pedal.schema.json",
+    "name": "test",
+    "compareToDesigner": "test mcgee",
+    "type": [ "eq", "boost" ],
     "buildDoc": false,
-    "basedOn": [ "YATS" ],
+    "lineage": [ "YATS" ],
     "components": [
         {
             "category": "Capacitor",
