@@ -1,8 +1,8 @@
 {
-    "pedalName": "Awful Waffle",
-    "compareToDesigner": "Crowther",
-    "pedalType": ["overdrive"],
+    "name": "Awful Waffle",
     "compareToName": "Hot Cake",
+    "compareToDesigner": "Crowther",
+    "type": ["overdrive"],
     "construction": "pcb",
     "buildDoc": true,
     "schematic": true,
