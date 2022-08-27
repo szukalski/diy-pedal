@@ -1,6 +1,6 @@
 {
-    "$schema": "../schemas/pedal-components.schema.json",
-    "components": [
-        {"category": "Hardware", "sub-category": "Enclosure","value": "test", "quantity": 1}
-    ]
+    "$schema": "../schemas/pedal-bom.schema.json",
+    "components": {
+        "components": []
+    }
 }
