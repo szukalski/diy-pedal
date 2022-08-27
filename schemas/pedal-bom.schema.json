@@ -6,7 +6,7 @@
     "type": "object",
     "unevaluatedProperties": false,
     "properties": {
-      "components": { "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal.schema.json" }
+      "components": { "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json" }
     },
     "required": [ "components" ]
   }
