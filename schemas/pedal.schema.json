@@ -4,8 +4,9 @@
     "title": "Pedal",
     "description": "A guitar pedal that you can build.",
     "type": "object",
+    "unevaluatedProperties": false,
     "properties": {
-        "pedalName": {
+        "name": {
             "description": "The name of the pedal",
             "type": "string"
         },
@@ -13,11 +14,11 @@
             "description": "Who designed the pedal this is compared to",
             "type": "string"
         },
-        "compareToPedalName": {
+        "compareToName": {
             "description": "What pedal can this be compared to",
             "type": "string"
         },
-        "pedalType": {
+        "type": {
             "description": "The type of pedal",
             "type": "array",
             "items": {
@@ -27,7 +28,7 @@
             "uniqueItems": true
         },
         "lineage": {
-            "description": "What pedals did this evolve from",
+            "description": "What pedals is this related to",
             "type": "array",
             "items": {
               "type": "string"
@@ -50,6 +51,15 @@
         "buildDoc": {
             "description": "Is build doc present?",
             "type": "boolean"
+        },
+        "buildNotes": {
+            "description": "Build notes for the pedal",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
         },
         "tags": {
             "description": "Tags for the pedal",
