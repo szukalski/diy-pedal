@@ -1,6 +1,3 @@
 {
-    "$schema": "../schemas/pedal-bom.schema.json",
-    "components": {
-        "components": []
-    }
+    "$schema": "../schemas/pedal-bom.schema.json"
 }
