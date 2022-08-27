@@ -5,6 +5,8 @@
     "description": "A BOM for one or more pedals.",
     "type": "object",
     "unevaluatedProperties": false,
-    "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schema/pedal.schema.json/components",
+    "properties": {
+      "components": { "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schema/pedal.schema.json" }
+    },
     "required": [ "components" ]
   }
