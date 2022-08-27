@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/szukalski/diy-pedal/raw/main/schema/pedal.schema.json",
+    "$id": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal.schema.json",
     "title": "Pedal",
     "description": "A guitar pedal that you can build.",
     "type": "object",
