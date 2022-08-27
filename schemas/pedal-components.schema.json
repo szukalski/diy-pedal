@@ -1,8 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json",
-    "title": "Pedal Component",
-    "description": "A guitar pedal component.",
+    "title": "Pedal Components",
+    "description": "Guitar pedal components.",
     "type": "object",
     "unevaluatedProperties": false,
     "properties": {
