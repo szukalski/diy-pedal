@@ -77,7 +77,7 @@
                         "then": {
                             "properties": {
                                 "sub-category": {
-                                    "oneOf": [
+                                    "anyOf": [
                                         { "type": "string" },
                                         { "enum": [ "Ceramic", "Film", "Electrolytic", "Tantalum" ] }
                                     ]
@@ -93,7 +93,7 @@
                         "then": {
                             "properties": {
                                 "sub-category": {
-                                    "oneOf": [
+                                    "anyOf": [
                                         { "type": "string" },
                                         { "enum": [ "Germanium", "LED", "Schottky", "Silicon", "Zener" ] }
                                     ]
@@ -109,7 +109,7 @@
                         "then": {
                             "properties": {
                                 "sub-category": {
-                                    "oneOf": [
+                                    "anyOf": [
                                         { "type": "string" },
                                         { "enum": [ "Bezel", "Enclosure", "Footswitch", "Jack", "Knob", "Toggle Switch"] }
                                     ]
@@ -125,7 +125,7 @@
                         "then": {
                             "properties": {
                                 "sub-category": {
-                                    "oneOf": [
+                                    "anyOf": [
                                         { "type": "string" },
                                         { "enum": [ "Log", "Lin", "RevLog", "Trimmer"] }
                                     ]
@@ -141,7 +141,7 @@
                         "then": {
                             "properties": {
                                 "sub-category": {
-                                    "oneOf": [
+                                    "anyOf": [
                                         { "type": "string" },
                                         { "enum": [ "1/4W", "1/8W", "Other"] }
                                     ]
