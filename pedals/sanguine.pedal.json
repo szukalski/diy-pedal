@@ -1,0 +1,460 @@
+{
+    "name": "Sanguine",
+    "compareToDesigner": "Revv",
+    "compareToName": "G4",
+    "type": ["distortion"],
+    "construction": "pcb",
+    "buildDoc": true,
+    "schematic": true,
+    "pcbSource": "PedalPCB",
+    "components": [
+        {
+          "category": "Potentiometer",
+          "sub-category": "Lin",
+          "value": "B1M",
+          "quantity": 1,
+          "location": ["Gain"]
+        },
+        {
+          "category": "Potentiometer",
+          "sub-category": "Lin",
+          "value": "B100K",
+          "quantity": 1,
+          "location": ["Mid"]
+        },
+        {
+          "category": "Potentiometer",
+          "sub-category": "Log",
+          "value": "A50K",
+          "quantity": 2,
+          "location": ["Volume","Treble"]
+        },
+        {
+          "category": "Potentiometer",
+          "sub-category": "Log",
+          "value": "A100K",
+          "quantity": 1,
+          "location": ["Bass"]
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Toggle Switch",
+          "value": "DPDT On/Off/On",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Jack",
+          "value": "DC Jack",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Jack",
+          "value": "Mono Jack",
+          "quantity": 2
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Knob",
+          "value": "6.35mm Knob",
+          "quantity": 5
+        },
+        {
+          "category": "Diode",
+          "sub-category": "LED",
+          "value": "5mm Red Diffused",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Enclosure",
+          "value": "125B",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Footswitch",
+          "value": "3PDT",
+          "quantity": 1
+        },
+        {
+          "category": "Diode",
+          "sub-category": "Schottky",
+          "value": "1N5817",
+          "quantity": 1
+        },
+        {
+          "category": "Diode",
+          "sub-category": "LED",
+          "value": "3mm Red",
+          "quantity": 2
+        },
+        {
+          "category": "IC",
+          "sub-category": "",
+          "value": "TL072",
+          "quantity": 3
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "1M",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10R",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "470K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "4K7",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "47K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "82K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "20K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "20K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "33K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "1K5",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "33K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "33K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "56K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "150K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "4K7",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "56K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "100K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "2K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "4K7",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "100K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "470K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "1M",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "22K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "1K5",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "470K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "2K",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "22n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Electrolytic",
+          "value": "100u",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Ceramic",
+          "value": "100p",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "100n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "4n7",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "2n2",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "100n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Electrolytic",
+          "value": "22u",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "1n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "220n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Ceramic",
+          "value": "100p",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Electrolytic",
+          "value": "4u7",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Ceramic",
+          "value": "100p",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "22n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "10n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "1n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "47n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "100n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "2n2",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "47n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "47n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "220n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "2n2",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "10n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "10n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Ceramic",
+          "value": "100p",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "220n",
+          "quantity": 1
+        }
+    ]
+}

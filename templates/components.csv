@@ -1,0 +1,15 @@
+category,sub-category,value,quantity
+Potentiometer,Lin,,
+Potentiometer,RevLog,,
+Potentiometer,Log,,
+Hardware,Jack,DC Jack,1
+Hardware,Jack,Mono Jack,2
+Hardware,Knob,6.35mm Knob,
+Diode,LED,5mm Red Diffused,1
+Hardware,Enclosure,125B,1
+Hardware,Footswitch,3PDT,1
+Capacitor,Film,,
+Capacitor,Electrolytic,,
+Capacitor,Ceramic,,
+Resistor,1/4W,,
+Hardware,Toggle Switch,SPDT On/On,

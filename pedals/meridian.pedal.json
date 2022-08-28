@@ -15,6 +15,7 @@
         "value": "B100K",
         "quantity": 1
         },
+        {"category": "Hardware","sub-category": "Knob","value": "6.35mm Knob","quantity": 4},
         {
         "category": "Potentiometer",
         "sub-category": "Lin",
