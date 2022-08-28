@@ -75,7 +75,14 @@
                             "required": [ "category" ]
                         },
                         "then": {
-                            "properties": { "sub-category": { "enum": [ "Ceramic", "Film", "Electrolytic", "Tantalum", "Other" ] } }
+                            "properties": {
+                                "sub-category": {
+                                    "oneOf": [
+                                        { "enum": [ "Ceramic", "Film", "Electrolytic", "Tantalum", "Other" ] },
+                                        { "type": "string" }
+                                    ]
+                                }
+                            }
                         }
                     },
                     {

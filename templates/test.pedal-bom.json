@@ -1,3 +1,6 @@
 {
-    "$schema": "../schemas/pedal-bom.schema.json"
+    "$schema": "../schemas/pedal-bom.schema.json",
+    "components": [
+        {"category": "Capacitor", "sub-category": "test"}
+    ]
 }
