@@ -72,5 +72,5 @@
         },
         "components": { "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components" }
     },
-    "required": [ "pedalName", "compareToDesigner", "compareToPedalName", "pedalType" ]
+    "required": [ "name", "compareToDesigner", "compareToName", "type" ]
   }
