@@ -23,6 +23,7 @@
         {"category": "Resistor","sub-category": "1/4W","value": "4K7","quantity": 1},
         {"category": "Resistor","sub-category": "1/4W","value": "82K","quantity": 1},
         {"category": "IC","sub-category": "","value": "LM741","quantity": 1},
+        {"category": "Socket","sub-category": "", "value": "DIP-8","quantity": 1},
         {"category": "Diode","sub-category": "Zener","value": "8V2","quantity": 1},
         {"category": "Potentiometer","sub-category": "Log","value": "A50K","quantity": 1},
         {"category": "Potentiometer","sub-category": "Lin","value": "B22K","quantity": 1},
@@ -30,7 +31,7 @@
         {"category": "Hardware","sub-category": "Knob","value": "6.35mm Knob","quantity": 3},
         {"category": "Hardware","sub-category": "Enclosure","value": "125B","quantity": 1},
         {"category": "Hardware","sub-category": "Footswitch","value": "3PDT","quantity": 1},
-        {"category": "Hardware","sub-category": "Jack","value": "Audio Jack","quantity": 1},
+        {"category": "Hardware","sub-category": "Jack","value": "Mono Jack","quantity": 2},
         {"category": "Hardware","sub-category": "Jack","value": "DC Jack","quantity": 1},
         {"category": "Diode","sub-category": "LED","value": "Indicator LED","quantity": 1}
     ]
