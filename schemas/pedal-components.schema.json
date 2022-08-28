@@ -78,8 +78,8 @@
                             "properties": {
                                 "sub-category": {
                                     "oneOf": [
-                                        { "enum": [ "Ceramic", "Film", "Electrolytic", "Tantalum", "Other" ] },
-                                        { "type": "string" }
+                                        { "type": "string" },
+                                        { "enum": [ "Ceramic", "Film", "Electrolytic", "Tantalum" ] }
                                     ]
                                 }
                             }
@@ -91,7 +91,14 @@
                             "required": [ "category" ]
                         },
                         "then": {
-                            "properties": { "sub-category": { "enum": [ "Germanium", "LED", "Schottky", "Silicon", "Zener" ] } }
+                            "properties": {
+                                "sub-category": {
+                                    "oneOf": [
+                                        { "type": "string" },
+                                        { "enum": [ "Germanium", "LED", "Schottky", "Silicon", "Zener" ] }
+                                    ]
+                                }
+                            }
                         }
                     },
                     {
@@ -100,7 +107,14 @@
                             "required": [ "category" ]
                         },
                         "then": {
-                            "properties": { "sub-category": { "enum": [ "Bezel", "Enclosure", "Footswitch", "Jack", "Knob", "Toggle Switch", "Other"] } }
+                            "properties": {
+                                "sub-category": {
+                                    "oneOf": [
+                                        { "type": "string" },
+                                        { "enum": [ "Bezel", "Enclosure", "Footswitch", "Jack", "Knob", "Toggle Switch"] }
+                                    ]
+                                }
+                            }
                         }
                     },
                     {
@@ -109,7 +123,14 @@
                             "required": [ "category" ]
                         },
                         "then": {
-                            "properties": { "sub-category": { "enum": [ "Log", "Lin", "RevLog", "Trimmer", "Other"] } }
+                            "properties": {
+                                "sub-category": {
+                                    "oneOf": [
+                                        { "type": "string" },
+                                        { "enum": [ "Log", "Lin", "RevLog", "Trimmer"] }
+                                    ]
+                                }
+                            }
                         }
                     },
                     {
@@ -118,7 +139,14 @@
                             "required": [ "category" ]
                         },
                         "then": {
-                            "properties": { "sub-category": { "enum": [ "1/4W", "1/8W", "Other"] } }
+                            "properties": {
+                                "sub-category": {
+                                    "oneOf": [
+                                        { "type": "string" },
+                                        { "enum": [ "1/4W", "1/8W", "Other"] }
+                                    ]
+                                }
+                            }
                         }
                     },
                     {
