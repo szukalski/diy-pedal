@@ -1,12 +1,12 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-bom.schema.json",
-    "title": "Bill of Materials",
-    "description": "A BOM for one or more pedals.",
-    "type": "object",
-    "unevaluatedProperties": false,
-    "properties": {
-      "components": { "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components" }
-    },
-    "required": [ "components" ]
-  }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-bom.schema.json",
+  "title": "Bill of Materials",
+  "description": "A BOM for one or more pedals.",
+  "type": "object",
+  "unevaluatedProperties": false,
+  "properties": {
+    "components": { "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components" }
+  },
+  "required": [ "components" ]
+}

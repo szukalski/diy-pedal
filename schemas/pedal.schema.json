@@ -22,7 +22,7 @@
             "description": "The type of pedal",
             "type": "array",
             "items": {
-                "enum": [ "boost", "chorus", "compression", "delay", "distortion", "dynamics", "eq", "filter", "flange", "fuzz", "modulation", "overdrive", "other", "phase", "pitch", "preamp", "reverb", "tremolo", "utility", "wah" ]
+                "enum": [ "boost", "chorus", "compression", "delay", "distortion", "dynamics", "eq", "filter", "flange", "fuzz", "modulation", "octave", "overdrive", "other", "phase", "pitch", "preamp", "reverb", "tremolo", "utility", "wah" ]
             },
             "minItems": 1,
             "uniqueItems": true

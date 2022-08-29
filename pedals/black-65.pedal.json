@@ -1,0 +1,193 @@
+{
+    "name": "Black 65",
+    "compareToDesigner": "Wampler",
+    "compareToName": "Black 65",
+    "type": ["overdrive"],
+    "lineage": [""],
+    "construction": "vero",
+    "buildDoc": false,
+    "schematic": true,
+    "components": [
+        {
+          "category": "Potentiometer",
+          "sub-category": "Log",
+          "value": "A500K",
+          "quantity": 1
+        },
+        {
+          "category": "Potentiometer",
+          "sub-category": "Log",
+          "value": "A100K",
+          "quantity": 2
+        },
+        {
+          "category": "Potentiometer",
+          "sub-category": "Lin",
+          "value": "B25K",
+          "quantity": 1
+        },
+        {
+          "category": "Potentiometer",
+          "sub-category": "Lin",
+          "value": "B2K",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Toggle Switch",
+          "value": "DPDT On/On",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Jack",
+          "value": "DC Jack",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Jack",
+          "value": "Mono Jack",
+          "quantity": 2
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Knob",
+          "value": "6.35mm Knob",
+          "quantity": 5
+        },
+        {
+          "category": "Diode",
+          "sub-category": "LED",
+          "value": "5mm Red Diffused",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Enclosure",
+          "value": "125B",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Footswitch",
+          "value": "3PDT",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "68K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "1K",
+          "quantity": 4
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "22K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10K",
+          "quantity": 4
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "5K6",
+          "quantity": 5
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "1M",
+          "quantity": 4
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "240K",
+          "quantity": 2
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10R",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "220n",
+          "quantity": 3
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "2n2",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "1u",
+          "quantity": 2
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "1n5",
+          "quantity": 2
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "100n",
+          "quantity": 2
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "1n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Ceramic",
+          "value": "100p",
+          "quantity": 3
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Electrolytic",
+          "value": "470u",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Electrolytic",
+          "value": "47u",
+          "quantity": 2
+        },
+        {
+          "category": "Transistor",
+          "sub-category": "JFET",
+          "value": "J201",
+          "quantity": 4,
+          "replacement-value": ["MMBFJ201"]
+        },
+        {
+          "category": "Socket",
+          "sub-category": "",
+          "value": "SIP-1",
+          "quantity": 12
+        }
+    ]
+}

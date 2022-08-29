@@ -1,0 +1,240 @@
+{
+    "name": "Honey Beest",
+    "compareToDesigner": "Bjorn Juhl",
+    "compareToName": "Honey Beest",
+    "type": ["overdrive"],
+    "lineage": ["Honey Bee"],
+    "construction": "vero",
+    "buildDoc": false,
+    "schematic": true,
+    "components": [
+        {
+          "category": "Potentiometer",
+          "sub-category": "Lin",
+          "value": "B50K",
+          "quantity": 1
+        },
+        {
+          "category": "Potentiometer",
+          "sub-category": "Log",
+          "value": "A500K",
+          "quantity": 1
+        },
+        {
+          "category": "Potentiometer",
+          "sub-category": "Log",
+          "value": "A50K",
+          "quantity": 1
+        },
+        {
+          "category": "Potentiometer",
+          "sub-category": "RevLog",
+          "value": "C50K",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Jack",
+          "value": "DC Jack",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Jack",
+          "value": "Mono Jack",
+          "quantity": 2
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Knob",
+          "value": "6.35mm Knob",
+          "quantity": 4
+        },
+        {
+          "category": "Diode",
+          "sub-category": "LED",
+          "value": "5mm Red Diffused",
+          "quantity": 2
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Enclosure",
+          "value": "125B",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Footswitch",
+          "value": "3PDT",
+          "quantity": 1
+        },
+        {
+          "category": "IC",
+          "sub-category": "",
+          "value": "CA3130EZ",
+          "quantity": 1
+        },
+        {
+          "category": "Socket",
+          "sub-category": "",
+          "value": "DIP-8",
+          "quantity": 1
+        },
+        {
+          "category": "Diode",
+          "sub-category": "LED",
+          "value": "3mm Red",
+          "quantity": 2
+        },
+        {
+          "category": "Diode",
+          "sub-category": "Silicon",
+          "value": "1N4007",
+          "quantity": 3
+        },
+        {
+          "category": "Transistor",
+          "sub-category": "MOSFET",
+          "value": "2N5952",
+          "quantity": 2
+        },
+        {
+          "category": "Socket",
+          "sub-category": "",
+          "value": "SIP-1",
+          "quantity": 16
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "4K7",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "1M",
+          "quantity": 3
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "47K",
+          "quantity": 3
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "14K7",
+          "quantity": 4
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "2K6",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "470R",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "360K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "27K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "3K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "5K6",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "1K",
+          "quantity": 2
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "150K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "47R",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Ceramic",
+          "value": "100p",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "4n7",
+          "quantity": 3
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "22n",
+          "quantity": 4
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "47n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "220n",
+          "quantity": 2
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Electrolytic",
+          "value": "1u",
+          "quantity": 3
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Electrolytic",
+          "value": "22u",
+          "quantity": 2
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Electrolytic",
+          "value": "100u",
+          "quantity": 1
+        }
+    ]
+}

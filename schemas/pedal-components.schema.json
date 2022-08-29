@@ -18,7 +18,9 @@
                             "Capacitor",
                             "Diode",
                             "Hardware",
+                            "Enclosure",
                             "IC",
+                            "Knob",
                             "Potentiometer",
                             "Resistor",
                             "Socket",
@@ -111,7 +113,7 @@
                                 "sub-category": {
                                     "anyOf": [
                                         { "type": "string" },
-                                        { "enum": [ "Bezel", "Enclosure", "Footswitch", "Jack", "Knob", "Toggle Switch"] }
+                                        { "enum": [ "Bezel", "Footswitch", "Jack", "Toggle Switch"] }
                                     ]
                                 }
                             }
