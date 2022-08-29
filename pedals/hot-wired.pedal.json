@@ -57,9 +57,9 @@
           "quantity": 2
         },
         {
-          "category": "Hardware",
-          "sub-category": "Knob",
-          "value": "6.35mm Knob",
+          "category": "Knob",
+          "sub-category": "",
+          "value": "6.35mm",
           "quantity": 6
         },
         {
@@ -69,8 +69,8 @@
           "quantity": 2
         },
         {
-          "category": "Hardware",
-          "sub-category": "Enclosure",
+          "category": "Enclosure",
+          "sub-category": "",
           "value": "1590BB",
           "quantity": 1
         },
