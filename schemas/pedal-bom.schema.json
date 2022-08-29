@@ -6,7 +6,20 @@
   "type": "object",
   "unevaluatedProperties": false,
   "properties": {
-    "components": { "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components" }
+    "bom": {
+      "type": "array",
+      "items": {
+        "buildName": {
+          "description": "Name for the build, individual or All",
+          "type": "string"
+        },
+        "category": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/category"},
+        "sub-category": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/sub-category"},
+        "value": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/value"},
+        "quantity": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/quantity"}
+      }
+    }
   },
   "required": [ "components" ]
 }
+
