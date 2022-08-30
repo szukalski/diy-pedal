@@ -13,8 +13,12 @@
     "pedals": {
       "type": "array",
       "items": {
-        "id": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal.schema.json#/properties/id"}
-      }
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal.schema.json#/properties/id" }
+        }
+      },
+      "minItems": 1
     }
   },
   "required": [ "buildName", "pedals" ]
