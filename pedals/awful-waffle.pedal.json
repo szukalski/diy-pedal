@@ -1,5 +1,6 @@
 {
     "name": "Awful Waffle",
+    "id": "awful-waffle",
     "compareToName": "Hot Cake",
     "compareToDesigner": "Crowther",
     "type": ["overdrive"],

@@ -1,5 +1,6 @@
 {
     "name": "War Scythe",
+    "id": "war-scythe",
     "compareToDesigner": "EQD",
     "compareToName": "Hoof Reaper",
     "type": ["fuzz", "octave"],

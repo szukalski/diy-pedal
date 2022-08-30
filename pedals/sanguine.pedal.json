@@ -1,5 +1,6 @@
 {
     "name": "Sanguine",
+    "id": "sanguine",
     "compareToDesigner": "Revv",
     "compareToName": "G4",
     "type": ["distortion"],

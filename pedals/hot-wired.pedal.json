@@ -1,5 +1,6 @@
 {
     "name": "Hot Wired",
+    "id": "hot-wired",
     "compareToDesigner": "Wampler",
     "compareToName": "Hot Wired",
     "type": ["overdrive"],

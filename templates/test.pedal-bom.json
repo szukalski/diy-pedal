@@ -1,6 +1,4 @@
 {
-    "$schema": "../schemas/pedal-bom.schema.json",
-    "components": [
-        {"category": "Capacitor", "sub-category": "Electrolytic","value": "test","quantity": 1}
-    ]
+    "$schema": "../schemas/pedal-build.schema.json",
+    "buildName": "test"
 }

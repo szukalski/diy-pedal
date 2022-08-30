@@ -1,5 +1,6 @@
 {
     "name": "Meridian",
+    "id": "meridian",
     "compareToDesigner": "Guyatone",
     "compareToName": "PS-021 Guitar Exciter",
     "type": ["compression"],

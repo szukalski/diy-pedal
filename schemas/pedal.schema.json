@@ -10,6 +10,10 @@
             "description": "The name of the pedal",
             "type": "string"
         },
+        "id": {
+            "description": "Unique ID for the pedal",
+            "type": "string"
+        },
         "compareToDesigner": {
             "description": "Who designed the pedal this is compared to",
             "type": "string"
@@ -72,5 +76,5 @@
         },
         "components": { "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components" }
     },
-    "required": [ "name", "compareToDesigner", "compareToName", "type" ]
+    "required": [ "name", "id", "compareToDesigner", "compareToName", "type" ]
   }

@@ -1,5 +1,6 @@
 {
     "name": "Phase II",
+    "id": "phase-ii",
     "compareToDesigner": "Mu-Tron",
     "compareToName": "Phasor II",
     "type": ["overdrive"],

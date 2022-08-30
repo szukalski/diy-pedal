@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-build.schema.json",
+  "title": "Bill of Materials",
+  "description": "A build list for one or more pedals.",
+  "type": "object",
+  "unevaluatedProperties": false,
+  "properties": {
+    "buildName": {
+      "description": "Name for the build",
+      "type": "string"
+    },
+    "pedals": {
+      "type": "array",
+      "items": {
+        "id": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal.schema.json#/properties/id"}
+      }
+    }
+  },
+  "required": [ "buildName", "pedals" ]
+}

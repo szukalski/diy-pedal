@@ -1,7 +1,9 @@
 {
     "$schema": "../schemas/pedal.schema.json",
     "name": "test",
+    "id": "test",
     "compareToDesigner": "test mcgee",
+    "compareToName": "test",
     "type": [ "eq", "boost" ],
     "buildDoc": false,
     "lineage": [ "YATS" ],

@@ -20,6 +20,6 @@
       }
     }
   },
-  "required": [ "components" ]
+  "required": [ "bom" ]
 }
 
