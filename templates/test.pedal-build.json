@@ -1,0 +1,5 @@
+{
+    "$schema": "../schemas/pedal-build.schema.json",
+    "buildName": "test",
+    "pedals": [{"id": "awful-waffle"},{"id": "black-65"}]
+}

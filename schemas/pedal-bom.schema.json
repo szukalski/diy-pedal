@@ -6,26 +6,36 @@
   "type": "object",
   "unevaluatedProperties": false,
   "properties": {
-    "bom": {
+    "build": {
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
           "buildName": {
-            "description": "Name for the build, individual or All",
-            "anyOf": [
-              { "const": "All" },
-              { "type": "string" }
-            ]
+            "description": "Name for the build",
+            "type": "string"
           },
-          "category": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/items/properties/category"},
-          "sub-category": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/items/properties/sub-category"},
-          "value": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/items/properties/value"},
-          "quantity": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/items/properties/quantity"}
-        }
+          "buildComponents": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "category": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/items/properties/category"},
+                "sub-category": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/items/properties/sub-category"},
+                "value": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/items/properties/value"},
+                "quantity": {"$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-components.schema.json#/properties/components/items/properties/quantity"},
+                "id": {
+                  "anyOf": [
+                    { "const": "All" },
+                    { "$ref": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal.schema.json#/properties/id" }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "required": [ "buildName" ]
       }
     }
-  },
-  "required": [ "bom" ]
+  }
 }
-

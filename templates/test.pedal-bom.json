@@ -1,4 +1,11 @@
 {
     "$schema": "../schemas/pedal-bom.schema.json",
-    "bom": [{"buildName": "","category": "Capacitor","value": "","quantity": 1,"sub-category": "Film"}]
+    "bom": [
+        {
+            "buildName": "test",
+            "buildComponents": [
+                {"id": "test"}
+            ]
+        }
+    ]
 }
