@@ -1,6 +1,6 @@
 {
     "$schema": "../schemas/pedal-bom.schema.json",
-    "bom": [
+    "build": [
         {
             "buildName": "test",
             "buildComponents": [

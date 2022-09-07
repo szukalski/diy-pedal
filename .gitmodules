@@ -1,0 +1,3 @@
+[submodule "pedal-parser"]
+	path = pedal-parser
+	url = https://github.com/szukalski/pedal-parser
