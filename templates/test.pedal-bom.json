@@ -1,11 +1,7 @@
 {
-    "$schema": "../schemas/pedal-bom.schema.json",
-    "build": [
-        {
-            "buildName": "test",
-            "buildComponents": [
-                {"id": "test"}
-            ]
-        }
-    ]
+    "$schema": "../schemas/pedal-buildlist.schema.json",
+    "build": [{
+        "buildName": "test",
+        "pedals": [{"id": "awful-waffle"}]
+    }]
 }

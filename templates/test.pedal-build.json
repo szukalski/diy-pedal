@@ -1,5 +1,5 @@
 {
-    "$schema": "../schemas/pedal-build.schema.json",
+    "$schema": "../schemas/pedal-buildlist.schema.json",
     "buildName": "test",
     "pedals": [{"id": "awful-waffle"},{"id": "black-65"}]
 }

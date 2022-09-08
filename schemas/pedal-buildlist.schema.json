@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-build.schema.json",
+  "$id": "https://github.com/szukalski/diy-pedal/raw/main/schemas/pedal-buildlist.schema.json",
   "title": "Bill of Materials",
   "description": "A build list for one or more pedals.",
   "type": "object",
