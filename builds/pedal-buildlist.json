@@ -1,0 +1,11 @@
+{
+    "buildName": "example",
+    "pedals": [
+        {
+            "id": "awful-waffle"
+        },
+        {
+            "id": "black-65"
+        }
+    ]
+}
