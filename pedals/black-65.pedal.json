@@ -7,7 +7,7 @@
     "lineage": [""],
     "construction": "vero",
     "buildDoc": false,
-    "schematic": true,
+    "schematic": false,
     "components": [
         {
           "category": "Potentiometer",
