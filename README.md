@@ -20,6 +20,8 @@ Prereqs: git and golang installed.
 ./build-bom -buildJson pedal-buildlist.json
 ```
 
+build-bom is built from <https://github.com/szukalski/pedal-parser>
+
 ## Useful Things
 
 <https://www.convertcsv.com/csv-to-json.htm>
