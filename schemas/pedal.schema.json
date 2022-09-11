@@ -52,6 +52,10 @@
             "description": "Is schematic present?",
             "type": "boolean"
         },
+        "vero": {
+            "description": "Is vero present?",
+            "type": "boolean"
+        },
         "buildDoc": {
             "description": "Is build doc present?",
             "type": "boolean"

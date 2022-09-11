@@ -1,0 +1,188 @@
+{
+    "name": "barbershop-v2",
+    "id": "barbershop-v2",
+    "compareToDesigner": "Fairfield Circuitry",
+    "compareToName": "Barbershop",
+    "type": ["preamp"],
+    "lineage": [""],
+    "construction": "vero",
+    "buildDoc": false,
+    "schematic": false,
+    "pcbSource": "",
+    "components": [
+        {
+          "category": "Potentiometer",
+          "sub-category": "Lin",
+          "value": "B10K",
+          "quantity": 1
+        },
+        {
+          "category": "Potentiometer",
+          "sub-category": "Log",
+          "value": "A100K",
+          "quantity": 2
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Jack",
+          "value": "DC Jack",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Jack",
+          "value": "Mono Jack",
+          "quantity": 2
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Knob",
+          "value": "6.35mm Knob",
+          "quantity": 3
+        },
+        {
+          "category": "Diode",
+          "sub-category": "LED",
+          "value": "5mm Red Diffused",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Enclosure",
+          "value": "1590B",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Footswitch",
+          "value": "3PDT",
+          "quantity": 1
+        },
+        {
+          "category": "Hardware",
+          "sub-category": "Toggle Switch",
+          "value": "SPDT On/Off/On",
+          "quantity": 1
+        },
+        {
+          "category": "Diode",
+          "sub-category": "Schottky",
+          "value": "1N5817",
+          "quantity": 1
+        },
+        {
+          "category": "Transistor",
+          "sub-category": "",
+          "value": "J201",
+          "quantity": 2
+        },
+        {
+          "category": "Transistor",
+          "sub-category": "",
+          "value": "2N2222",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Ceramic",
+          "value": "100p",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "10n",
+          "quantity": 2
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "100n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "47n",
+          "quantity": 1
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Film",
+          "value": "1u",
+          "quantity": 3
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Electrolytic",
+          "value": "22u",
+          "quantity": 2
+        },
+        {
+          "category": "Capacitor",
+          "sub-category": "Electrolytic",
+          "value": "220u",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "2M",
+          "quantity": 2
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "330K",
+          "quantity": 2
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "5K1",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "33K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "8K2",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "47R",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "1K",
+          "quantity": 3
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "11K",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "1M",
+          "quantity": 1
+        },
+        {
+          "category": "Resistor",
+          "sub-category": "1/4W",
+          "value": "10K",
+          "quantity": 1
+        }
+    ]
+}

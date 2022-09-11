@@ -1,0 +1,33 @@
+{
+    "name": "red-rooster",
+    "id": "red-rooster",
+    "compareToDesigner": "DAM",
+    "compareToName": "Red Rooster",
+    "type": ["boost"],
+    "lineage": ["Rangemaster"],
+    "construction": "vero",
+    "buildDoc": false,
+    "schematic": false,
+    "pcbSource": "",
+    "components": [
+        {"category": "Potentiometer","sub-category": "Lin","value": "a10KB100K","quantity": 1},
+        {"category": "Potentiometer","sub-category": "Log","value": "B100K","quantity": 1},
+        {"category": "Knob","sub-category": "","value": "6.35mm","quantity": 2},
+        {"category": "Enclosure","sub-category": "","value": "1590B","quantity": 1},
+        {"category": "Hardware","sub-category": "Footswitch","value": "3PDT","quantity": 1},
+        {"category": "Hardware","sub-category": "Jack","value": "Mono Jack","quantity": 2},
+        {"category": "Hardware","sub-category": "Jack","value": "DC Jack","quantity": 1},
+        {"category": "Diode","sub-category": "LED","value": "Indicator LED","quantity": 1},
+        {"category": "Diode","sub-category": "Schottky","value": "1N5817","quantity": 1},
+        {"category": "Capacitor","sub-category": "Electrolytic","value": "2u2","quantity": 1},
+        {"category": "Capacitor","sub-category": "Electrolytic","value": "22u","quantity": 1},
+        {"category": "Capacitor","sub-category": "Electrolytic","value": "47u","quantity": 1},
+        {"category": "Capacitor","sub-category": "Film","value": "5n","quantity": 1},
+        {"category": "Capacitor","sub-category": "Film","value": "10n","quantity": 1},
+        {"category": "Potentiometer","sub-category":"Trimmer","value": "5K","quantity": 1},
+        {"category": "Transistor","sub-category": "","value": "NPN Germanium", "quantity": 1},
+        {"category": "Resistor","sub-category":"1/4W","value": "1M","quantity": 1},
+        {"category": "Resistor","sub-category":"1/4W","value": "68K","quantity": 1},
+        {"category": "Resistor","sub-category":"1/4W","value": "470K","quantity": 1}
+    ]
+}
