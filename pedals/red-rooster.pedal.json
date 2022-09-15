@@ -10,7 +10,7 @@
     "schematic": false,
     "pcbSource": "",
     "components": [
-        {"category": "Potentiometer","sub-category": "Lin","value": "a10KB100K","quantity": 1},
+        {"category": "Potentiometer","sub-category": "Lin","value": "A10K","quantity": 1},
         {"category": "Potentiometer","sub-category": "Log","value": "B100K","quantity": 1},
         {"category": "Knob","sub-category": "","value": "6.35mm","quantity": 2},
         {"category": "Enclosure","sub-category": "","value": "1590B","quantity": 1},

@@ -36,7 +36,7 @@
         {"category": "Potentiometer","sub-category": "RevLog","value": "C25K","quantity": 1,"location": ["Tone"]},
         {"category": "Potentiometer","sub-category": "Lin","value": "B100K","quantity": 1,"location": ["Volume"]},
         {"category": "Knob","sub-category": "","value": "6.35mm","quantity": 1},
-        {"category": "Enclosure","sub-category": "","value": "125B","quantity": 1},
+        {"category": "Enclosure","sub-category": "","value": "1590B","quantity": 1},
         {"category": "Hardware","sub-category": "Footswitch","value": "3PDT","quantity": 1},
         {"category": "Hardware","sub-category": "Jack","value": "Mono Jack","quantity": 2},
         {"category": "Hardware","sub-category": "Jack","value": "DC Jack","quantity": 1},
