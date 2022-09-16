@@ -48,6 +48,10 @@
             "description": "The source for the PCB",
             "type": "string"
         },
+        "pcbSourceUrl": {
+            "description": "The URL for the PCB",
+            "type": "string"
+        },
         "schematic": {
             "description": "Is schematic present?",
             "type": "boolean"
