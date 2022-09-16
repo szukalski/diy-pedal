@@ -8,6 +8,7 @@
     "buildDoc": true,
     "schematic": true,
     "pcbSource": "PedalPCB",
+    "pcbSourceUrl": "https://www.pedalpcb.com/product/awfulwaffle/",
     "components": [
         {"category": "Capacitor","sub-category": "Electrolytic","value": "10u","quantity": 2},
         {"category": "Capacitor","sub-category": "Film","value": "10n","quantity": 1},
@@ -30,7 +31,7 @@
         {"category": "Potentiometer","sub-category": "Lin","value": "B22K","quantity": 1},
         {"category": "Potentiometer","sub-category": "RevLog","value": "C50K","quantity": 1},
         {"category": "Knob","sub-category": "","value": "6.35mm","quantity": 3},
-        {"category": "Enclosure","sub-category": "","value": "125B","quantity": 1},
+        {"category": "Enclosure","sub-category": "3-Knob (Type 1)","value": "125B","quantity": 1},
         {"category": "Hardware","sub-category": "Footswitch","value": "3PDT","quantity": 1},
         {"category": "Hardware","sub-category": "Jack","value": "Mono Jack","quantity": 2},
         {"category": "Hardware","sub-category": "Jack","value": "DC Jack","quantity": 1},

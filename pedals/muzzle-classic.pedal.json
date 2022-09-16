@@ -9,6 +9,7 @@
     "buildDoc": true,
     "schematic": false,
     "pcbSource": "PedalPCB",
+    "pcbSourceUrl": "https://www.pedalpcb.com/product/muzzle-classic/",
     "components": [
         {
           "category": "Potentiometer",

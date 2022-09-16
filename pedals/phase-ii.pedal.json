@@ -9,6 +9,7 @@
     "buildDoc": true,
     "schematic": true,
     "pcbSource": "PedalPCB",
+    "pcbSourceUrl": "https://www.pedalpcb.com/product/phaseii/",
     "components": [
         {
           "category": "Potentiometer",
@@ -66,7 +67,7 @@
         },
         {
           "category": "Enclosure",
-          "sub-category": "",
+          "sub-category": "3-Knob (Type 1)",
           "value": "125B",
           "quantity": 1
         },

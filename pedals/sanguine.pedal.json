@@ -8,6 +8,7 @@
     "buildDoc": true,
     "schematic": true,
     "pcbSource": "PedalPCB",
+    "pcbSourceUrl": "https://www.pedalpcb.com/product/sanguinedistortion/",
     "components": [
         {
           "category": "Potentiometer",
