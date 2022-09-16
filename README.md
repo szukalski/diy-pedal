@@ -29,3 +29,14 @@ build-bom is built from <https://github.com/szukalski/pedal-parser>
 ```bash
 echo ""|sed 's/ /\n/g'|sed 's/ //g'|grep '^[0-9]'
 ```
+
+## 1590B Top Mount
+
+* On enclosure face
+  * Use PedalPCB drill template 9mm down from top of enclosure for pots
+  * Use PedalPCB drill template at bottom for footswitch and LED
+* On enclosure top
+  * Make line 11mm from edge of enclosure (edge where lid sits)
+  * Make marks on line 17mm from each side for the 1/4" jacks
+  * There should be 25mm between jack positions, dissect and mark in the middle (mid point of the enclosure width)
+  * Mark 6mm above the 11mm in the center for the DC jack
