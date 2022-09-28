@@ -40,3 +40,19 @@ echo ""|sed 's/ /\n/g'|sed 's/ //g'|grep '^[0-9]'
   * Make marks on line 17mm from each side for the 1/4" jacks
   * There should be 25mm between jack positions, dissect and mark in the middle (mid point of the enclosure width)
   * Mark 6mm above the 11mm in the center for the DC jack
+
+## Components Sharing Same Pinout
+
+* Single op amp
+  * 8-pin
+    * UA741, NE5534
+    * LM386
+* Dual op amp
+  * 8-pin
+    * TL062, TL072, TL082, RC4558, NE5532, OPA2134, LM833, MC1458, RC4580
+    * LM358
+* Quad op amp
+  * 14-pin
+    * LM324
+    * TL074
+    * LM342
