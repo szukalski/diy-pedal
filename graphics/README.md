@@ -10,3 +10,7 @@
 5. Change to Gloss or White swatches on respective layers
 6. Delete other layers
 7. File > Export : PDF/X-4
+
+## Fonts
+
+[Font Monkey](https://www.fontmonkey.com/)
