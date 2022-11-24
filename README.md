@@ -41,6 +41,12 @@ echo ""|sed 's/ /\n/g'|sed 's/ //g'|grep '^[0-9]'
   * There should be 25mm between jack positions, dissect and mark in the middle (mid point of the enclosure width)
   * Mark 6mm above the 11mm in the center for the DC jack
 
+## 1590B Top Mount Alternate
+
+* I measure carefully and use a drill press! To get just enough room for the Lumberg jacks I measure in from the sides 16mm and from the lower lip of the enclosure 9mm.
+* The DC jack is in the centre laterally and 10mm from the top of the enclosure. These are the hole centres.
+* The input jack does hit the gain pot and at first is at an angle, but as you tighten the nut it straightens up and I rarely have issues.
+
 ## Components Sharing Same Pinout
 
 * Single op amp
