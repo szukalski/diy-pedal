@@ -1,0 +1,46 @@
+Sproing Deluxe
+-------------------
+1   	100R       
+1    	390R       
+1   	470R       
+4    	1K         
+1    	2K2        
+1   	4K7        
+7   	10K        
+1    	15K        
+1    	22K        
+1    	33K        
+1   	39K        
+3   	100K       
+6    	220K       
+1    	1M         
+
+1    	330p       
+1    	10n        
+1    	15n        
+2    	1u Film
+
+1     4u7        
+1    	10u        
+6   	100u       
+6   	100n       
+
+1  	1N5817     
+
+1    	L78L05     
+1   	BTDR-2H(L) 
+3    	TL072      
+1   	JRC4558    
+
+1	LDR
+1	3mm Red LED
+2	5mm Red LED
+2	5mm LED Lens
+
+1 	A10K       
+1 	C100K      
+1	B1K        
+
+1   	9mm B10K       
+1  	9mm B500K      
+
